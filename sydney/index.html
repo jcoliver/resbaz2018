@@ -50,15 +50,26 @@
       </remote-markdown>
     </section>
     <hr/>
+    <section id="classes">
+      <h1>Workshops</h1>
+      <remote-markdown url="classes.md">
+        <div class="markdown-html"></div>
+      </remote-markdown>     
+    </section>
+    <hr/>
+    
+    <section id="schedule">
+      <h1>Schedule</h1>
+      <remote-markdown url="schedule.md">
+        <div class="markdown-html"></div>
+      </remote-markdown>
+    </section>
+    <hr/>
     <section id="venue">
       <h1>Venue</h1>
-      <p>The event will be held at Macquarie University.</p>
-
+      <p>ResBaz Sydney will be held in Building E7B at Macquarie University, 3-5 July, 2018.</p>
       <venue-map geojson-url="venue.geojson" zoom="17"></venue-map>
-
-
     </section>
-
     <hr/>
 <!--    <section id="come-along">
       <remote-markdown url="come_along.md">
@@ -68,11 +79,22 @@
       </remote-markdown>
     </section>
 -->
-    <hr/>
+    <section id="mail-list">
+      <div class="center"> 
+        <script type="text/javascript">
+         function msgbox() {   alert("An Invitation to our Google Group has been sent to " + _gel("emailconf").value + ". You will have to confirm the email invitation to join and recieve future emails. You can opt out of our group at anytime using the Unsubscribe link in the email."); }
+        </script>
+        <form action="http://groups.google.com/group/resbazsyd-mail-list/boxsubscribe" id="formconf" onsubmit="msgbox()">
+          <h1>Upcoming announcements</h1>
+          <p>Join our mail list</p>
+          <input type="submit" value="Subscribe">
+        </form>
+      </div>
+    </section>
+    <hr/>   
     <section id="contact-us">
-      <h1>Contact</h1>
+      <h1>Contact Us</h1>
       <div class="center">
-      <p>Details coming soon, or contact us at:</p>
         <contact-icons email="resbazsydney@googlegroups.com" ></contact-icons>
       </div>
     </section>
